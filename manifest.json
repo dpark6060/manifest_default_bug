@@ -1,0 +1,30 @@
+{
+  "name": "manifest_boolean_demo",
+  "label": "manifest_boolean_demo",
+  "description": "",
+  "maintainer": "Michael Perry <lmperry@stanford.edu>",
+  "author": "",
+  "url": "",
+  "source": "https://github.com/scitran-apps/fsl-bet",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "custom": {
+    "flywheel": {
+      "suite": "Bug"
+    },
+    "docker-image": "ubuntu:18.04",
+    "gear-builder": {
+      "category": "analysis",
+      "image": "ubuntu:18.04"
+    }
+  },
+  "config": {
+    "boolean_config_value": {
+      "description": "Passes manifest check with the string 'true', which causes the job to fail when run",
+      "default": "true",
+      "type": "number"
+
+    }
+    }
+  }
+
