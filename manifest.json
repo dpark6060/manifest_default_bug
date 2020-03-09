@@ -22,7 +22,7 @@
     "boolean_config_value": {
       "description": "Passes manifest check with the string 'true', which causes the job to fail when run",
       "default": "true",
-      "type": "number"
+      "type": "integer"
 
     }
     }
