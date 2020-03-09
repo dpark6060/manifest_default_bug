@@ -1,9 +1,9 @@
 {
-  "name": "manifest_boolean_demo",
-  "label": "manifest_boolean_demo",
-  "description": "",
+  "name": "manifest-default-demo",
+  "label": "manifest_default_demo",
+  "description": "a gear to test bugs",
   "maintainer": "Michael Perry <lmperry@stanford.edu>",
-  "author": "",
+  "author": "David",
   "url": "",
   "source": "https://github.com/scitran-apps/fsl-bet",
   "license": "Apache-2.0",
@@ -21,10 +21,13 @@
   "config": {
     "boolean_config_value": {
       "description": "Passes manifest check with the string 'true', which causes the job to fail when run",
-      "default": "true",
-      "type": "integer"
+      "default": 23,
+      "type": "boolean"
 
     }
-    }
+    },
+  "inputs": {
+    
+  }
   }
 
